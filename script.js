@@ -4,7 +4,7 @@ console.log(name);
 const surname = prompt('Qual è il tuo cognome?');
 console.log(surname);
 
-const age = prompt('Quanti anni hai?');
-console.log(age);
+const color = prompt('Qual è il tuo colore preferito?');
+console.log(color);
 
-document.getElementById("psw").innerHTML = 'La tua super password totalmente inaffidabile è: ' + name + surname + age + 21;
+document.getElementById("psw").innerHTML = 'La tua super password totalmente inaffidabile è: ' + name + surname + color + 21;
